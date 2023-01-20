@@ -4,12 +4,14 @@ body {
 }
 
 form {
-    background-color: rgb(44, 10, 114);
+    background-color: rgb(34, 10, 80);
+    opacity: 0.8;
     color: white;
     font-family: sans-serif;
     border-radius: 8px;
     border-width: 1px;
-    text-align: center;
+    padding: 20px;
+    background-clip: padding-box;
 }
 h1, h1 + p {
     color: white;
