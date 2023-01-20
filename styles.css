@@ -25,8 +25,9 @@ section:not(:first-child),section:not(:last-child) {
     margin-top: 3%;
 }
 
-#name, #email, #age, #dropdown, #additional {
+.white-box {
     width: 90%;
+    border-radius: 4px;
 }
 
 button {
