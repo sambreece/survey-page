@@ -2,8 +2,7 @@ body {
     background-image: linear-gradient(115deg,rgba(58, 58, 158, 0.8),rgba(136, 136, 206, 0.7)),  url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
     font-family: sans-serif;
     width: 100%;
-    display: block;
-    margin: 0;
+    padding-bottom: 5%;
 }
 
 form {
@@ -18,6 +17,7 @@ form {
     padding: 20px;
     background-clip: padding-box;
     max-width: 600px;
+    font-size: 20px;
 }
 h1, h1 + p {
     color: white;
@@ -32,13 +32,11 @@ section {
 
 .white-box {
     width: 90%;
-    margin: auto;
     border-radius: 2px;
     font-family: sans-serif;
     padding: 2%;
     box-sizing:border-box;
 }
-
 
 button {
     width: 90%;
@@ -48,5 +46,5 @@ button {
     background-color: rgb(32, 152, 32);
     color: white;
     padding: 2%;
-    box-sizing:border-box
+    font-size: 20px;
 }
