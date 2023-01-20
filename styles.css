@@ -1,38 +1,52 @@
 body {
     background-image: linear-gradient(115deg,rgba(58, 58, 158, 0.8),rgba(136, 136, 206, 0.7)),  url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    font-family: sans-serif;
+    width: 100%;
     display: block;
+    margin: 0;
 }
 
 form {
     width: 90%;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     background-color: rgb(34, 10, 80);
     opacity: 0.8;
     color: white;
-    font-family: sans-serif;
     border-radius: 8px;
     border-width: 1px;
     padding: 20px;
     background-clip: padding-box;
+    max-width: 600px;
 }
 h1, h1 + p {
     color: white;
-    font-family: sans-serif;
     text-align: center;
 }
 
-section:not(:first-child),section:not(:last-child) {
-    margin-top: 3%;
+section {
+    padding-bottom: 3%;
+    margin: auto;
+    width: 100%;
 }
 
 .white-box {
     width: 90%;
-    border-radius: 4px;
+    margin: auto;
+    border-radius: 2px;
+    font-family: sans-serif;
+    padding: 2%;
+    box-sizing:border-box;
 }
+
 
 button {
     width: 90%;
-    background-color: rgb(15, 116, 15);
-    font-family: sans-serif;
+    margin: auto;
+    border: 0;
+    border-radius: 2px;
+    background-color: rgb(32, 152, 32);
     color: white;
+    padding: 2%;
+    box-sizing:border-box
 }
