@@ -21,8 +21,17 @@ h1, h1 + p {
     text-align: center;
 }
 
-#name,#email,#age,#additional  {
-    margin: 0 auto;
-    display: block;
+section:not(:first-child),section:not(:last-child) {
+    margin-top: 3%;
+}
+
+#name, #email, #age, #dropdown, #additional {
     width: 90%;
+}
+
+button {
+    width: 90%;
+    background-color: rgb(15, 116, 15);
+    font-family: sans-serif;
+    color: white;
 }
