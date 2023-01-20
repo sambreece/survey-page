@@ -7,6 +7,7 @@ body {
 
 form {
     width: 90%;
+    display:block;
     margin-left: auto;
     margin-right: auto;
     background-color: rgb(34, 10, 80);
@@ -19,15 +20,13 @@ form {
     max-width: 600px;
     font-size: 20px;
 }
-h1, h1 + p {
+header {
     color: white;
     text-align: center;
 }
 
 section {
     padding-bottom: 3%;
-    margin: auto;
-    width: 100%;
 }
 
 .white-box {
@@ -40,7 +39,6 @@ section {
 
 button {
     width: 90%;
-    margin: auto;
     border: 0;
     border-radius: 2px;
     background-color: rgb(32, 152, 32);
