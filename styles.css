@@ -4,6 +4,8 @@ body {
 }
 
 form {
+    width: 90%;
+    margin: auto;
     background-color: rgb(34, 10, 80);
     opacity: 0.8;
     color: white;
@@ -17,4 +19,10 @@ h1, h1 + p {
     color: white;
     font-family: sans-serif;
     text-align: center;
+}
+
+#name,#email,#age,#additional  {
+    margin: 0 auto;
+    display: block;
+    width: 90%;
 }
